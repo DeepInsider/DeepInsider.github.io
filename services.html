@@ -29,6 +29,15 @@ body {
 }
 </style>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115872911-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115872911-2');
+</script>
 </head>
 
 <body>
@@ -74,14 +83,19 @@ body {
 
       <h2>Our Services</h3>
 
-      <div class="repo">
-        <h3><a href="https://deepinsider.github.io/ProfileChecker/"><span>ProfileChecker</span></a></h3>
-        <p>Deep Insiderのプロフィールをチェックするツール。</p>
-      </div>
+        <div class="repo">
+          <h3><a href="/playground/"><span>ニューラルネットワーク Playground ［Deep Insider 版］</span></a></h3>
+          <p>ディープラーニングを学ぶためのデモ実行ツール。</p>
+        </div>
+
+        <div class="repo">
+          <h3><a href="/playground-data/"><span>ニューラルネットワーク Playground-DATA の サンプル Web アプリ（TensorFlow.js 活用）</span></a></h3>
+          <p>ディープラーニングを学ぶためのサンプルアプリ。</p>
+        </div>
 
       <div class="repo">
-        <h3><a href="https://deepinsider.github.io/playground/"><span>TensorFlow Playgroundのフォーク</span></a></h3>
-        <p>ディープラーニングを学ぶための実行ツール。</p>
+        <h3><a href="/ProfileChecker/"><span>ProfileChecker</span></a></h3>
+        <p>Deep Insiderのプロフィールをチェックするツール。</p>
       </div>
 
     </div>
