@@ -25,13 +25,11 @@
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-bare.git"
     },
-    "dependencies": {
-        "bootstrap": "4.0.0",
-        "hoek": "^5.0.3",
-        "jquery": "3.3.1"
+    "scripts": {
+        "vendor": "node scripts/vendor.mjs"
     },
-    "devDependencies": {
-        "browser-sync": "2.23.6",
-        "gulp": "^3.9.1"
+    "dependencies": {
+        "bootstrap": "4.6.2",
+        "jquery": "3.7.1"
     }
 }
